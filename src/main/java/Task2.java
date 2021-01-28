@@ -28,7 +28,7 @@ public class Task2 {
 
     private static boolean repeatingNumbers(long number) {
         int j = 0;
-        ArrayList<Long> array = new ArrayList<>();
+        ArrayList<Long> array = new ArrayList();
         do {
             array.add(number % 10);
             number /= 10;
